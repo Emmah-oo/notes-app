@@ -25,7 +25,8 @@ const Notes = ({ notes, setNotes, addNote, deleteNote }) => {
           return note
         }
       }).map((note, i) => {
-        return <Note 
+        return 
+        <Note 
           note={note} 
           setNotes={setNotes} 
           key={i} 

@@ -11,7 +11,7 @@ const AddNote = ({ addNote }) => {
     }
     
     const handleTextSave = () => {
-        if (text.length > 1) {
+        if (text.length >= 1) {
             addNote(text)
             setText('')
         }
